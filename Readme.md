@@ -2,7 +2,7 @@
 
 ### Steps to build. 
 1. Run `dotnet restore` in the `src\CustomScaffolder\` directory.
-2. Run `dotnet pack -o ..\artifacts --version-suffix dev-1` in the `src\CustomScaffolder\` directory.
+2. Run `dotnet pack -o ..\..\artifacts --version-suffix dev-1` in the `src\CustomScaffolder\` directory.
 3. Run `dotnet restore` in the `SampleTestApp` directory.
 4. Run `dotnet aspnet-codegenerator -p . sample --model SampleModel` in the `SampleTestApp` directory.
 
